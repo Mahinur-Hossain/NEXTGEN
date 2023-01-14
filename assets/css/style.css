@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;600&family=Josefin+Sans&family=Poppins&family=Roboto&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* modal */
+.modal-dialog{
+   margin: 0;
+   width: 430px;
+}
+@media(max-width: 450px){
+    .modal-dialog{
+        width: 82px;
+    }
+}
+.modal-body{
+    border-radius: 0;
+    height: 100vh;
+   /* overflow-y: scroll ; */
+     background-color: #133c83;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    max-width: 0 auto;
+    padding-bottom: 16px;
+    background-color: #133c83;
+
+}
+.modal-header h3{
+    color: black;
+}
+.modal-body .modal-line a{
+    text-decoration: none;
+    color: white;
+}
+
+.modal-body i{
+    color: white;
+    font-size: 25px;
+}
+
+.modal-line{
+    background-color: #133c83;
+    color: white;
+}
+
+.modal-dialog{
+    background-color: #133c83; 
+}
+
+.mobile-modal-footer .modal-line a{
+    
+    text-decoration: none;
+    color: white;
+}
+.img-fluid img{
+   
+width: 60.42px;
+height: 45px;
+left: 1818.3px;
+top: 11px;
+}
+
+.mainTwo{
+    padding: 40px;
+}
+.navTwo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ .gap-4{
+    padding: 20px;
+    margin-left: 10px;
+ }
+
+ .borderTwo{
+    box-sizing: border-box;
+    height: 344px;
+    border: 1px dashed black;
+   border-radius: 5px;
+ 
+ }
+ .contentTwo{
+    padding: 10px ;
+    margin-left: 10px;
+ }
+ .mainOne{
+    background: #F4F4F4;
+    margin-top: 20px;
+ }
+ .mainOne h3{
+    font-size: 40px;
+    color: #102048;
+    margin-left: 20%;
+ }
+ .ms-5{
+    margin-left: 20%;
+ }
+ 
+ .mainTwo{
+    background: #F4F4F4; 
+ }
+
+ .border{
+    background: #FFFFFF;
+ }
+
+ .borderTwo{
+    background: #FFFFFF;
+ }
+
+ .card-body{
+    height: 150px;
+ }
+ 
+ .btn{
+    background: #1E2772;
+   
+ }
+
+ .mainThree{
+    padding: 30px;
+    margin-left: 20px;
+ }
+
+ .mainThree h3{
+    font-size: 40px;
+    font-weight: 700;
+ }
+ 
+.bg-main{
+    background-color:  #D2D2D2;
+    height: 800px;
+}
+
+.mainFive{
+    margin-top: 30px;
+}
+
+.mainSix{
+    margin-top: 80px;
+}
+
+.mainSix table{
+    background-color: white;
+    height: 300px;
+}
